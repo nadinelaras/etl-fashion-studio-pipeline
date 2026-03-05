@@ -1,0 +1,19 @@
+# 1. Menjalankan ETL pipeline
+
+# install dependencies
+pip install -r requirements.txt
+
+# jalankan script ETL
+python main.py
+
+# 2. Menjalankan unit test
+
+python -m pytest tests
+
+# 3. Menjalankan test coverage
+
+python -m pytest --cov=utils --cov-report=term-missing
+
+# 4. URL google sheets
+
+https://docs.google.com/spreadsheets/d/16TjWQkdeJPt65VbtPS8YZw-VrDxuPztFCFE5CnAdxOU/edit?gid=0#gid=0
