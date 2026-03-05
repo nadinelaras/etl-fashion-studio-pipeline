@@ -20,7 +20,7 @@ https://www.linkedin.com/in/nadine-putri-larasati-847214395/
 
 Python, Git, GitHub, beautifulsoup4, coverage, gspread, numpy, oauth2client, pandas, psycopg2-binary, pytest, pytest-cov, requests, and SQLAlchemy.
 
-## URL google sheets:
+## URL Google Sheets:
 
 https://docs.google.com/spreadsheets/d/16TjWQkdeJPt65VbtPS8YZw-VrDxuPztFCFE5CnAdxOU/edit?gid=0#gid=0
 
@@ -56,24 +56,24 @@ Note: All code has been personally tested and modified.
 ├── .gitignore
 ```
 
-## Run ETL pipeline
+## Run ETL Pipeline
 
-### install dependencies
+### Install Dependencies
 ```
 pip install -r requirements.txt
 ```
 
-### Run script ETL
+### Run Script ETL
 ```
 python main.py
 ```
 
-## Run unit test
+## Run Unit test
 ```
 python -m pytest tests
 ```
 
-## Run test coverage
+## Run Test Coverage
 ```
 python -m pytest --cov=utils --cov-report=term-missing
 ```
